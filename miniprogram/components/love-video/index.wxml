@@ -1,0 +1,12 @@
+<!--components/video/index.wxml-->
+<view class="video-page">
+  <image src="../../images/20220416190752.jpg" style="margin:auto;width: 100%;height: 30%;" />
+
+
+  <!-- <video bindtimeupdate="bindtimeupdate" danmu-btn danmu-list="{{danmuList}}" enable-danmu class="video-page__video" autoplay="false" src="{{videoUrl}}"></video> -->
+  <view bindtap="toVideo">
+    <image bindtap="toVideo" src="../../images/20220417155421.png" style="margin:auto;width: 100%" />
+  </view>
+
+
+</view>
